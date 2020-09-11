@@ -31,7 +31,7 @@ BlockChain ajouterBlock(BlockChain bc)
     return new_block;
 }
 
-float totalTransactionEtudiantBlock(int idEtu, T_Bloc k b)
+float totalTransactionEtudiantBlock(int idEtu, T_Block b)
 {
     float total = 0;
     T_Transaction *p;
